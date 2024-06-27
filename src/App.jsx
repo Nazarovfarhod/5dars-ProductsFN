@@ -8,12 +8,14 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SingleProduct from "./pages/SingleProduct";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   const routes = createBrowserRouter([
     {
       path: "/",
       element: <RootLayout />,
+      errorElement: <ErrorPage />,
       children: [
         {
           index: true,
