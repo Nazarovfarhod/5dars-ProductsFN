@@ -30,29 +30,17 @@ function RootLayout() {
                   </Link>
                 </li>
                 <li>
-                  <details>
-                    <summary className="text-xl font-medium font-serif">
-                      Pages
-                    </summary>
-                    <ul className="bg-base-100 rounded-t-none p-2">
-                      <li>
-                        <Link
-                          className="text-xl font-medium font-serif"
-                          to="/about"
-                        >
-                          About
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="text-xl font-medium font-serif"
-                          to="/contact"
-                        >
-                          Contact
-                        </Link>
-                      </li>
-                    </ul>
-                  </details>
+                  <Link className="text-xl font-medium font-serif" to="/about">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-xl font-medium font-serif"
+                    to="/contact"
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
